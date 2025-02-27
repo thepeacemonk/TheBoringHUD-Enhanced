@@ -1,0 +1,42 @@
+{
+  "originHash" : "e3aa8c65f0aa6c1ee6d4e8fb1b55affbcd29ccea90f7ae7706cd2bc62656bd1d",
+  "pins" : [
+    {
+      "identity" : "keyboardshortcuts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/KeyboardShortcuts",
+      "state" : {
+        "revision" : "e6b60117ec266e1e5d059f7f34815144f9762b36",
+        "version" : "2.0.2"
+      }
+    },
+    {
+      "identity" : "launchatlogin-modern",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a04ec1c363be3627734f6dad757d82f5d4fa8fcc"
+      }
+    },
+    {
+      "identity" : "mediakeytap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AlexPerathoner/MediaKeyTap",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bd1402a89a0f0caa9b0a6cd0cc9b76fe55bf3f4e"
+      }
+    },
+    {
+      "identity" : "theboringworkernotifier",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TheBoredTeam/TheBoringWorkerNotifier.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bc2b292c88035dcfc41fc7e3d8021689e624d137"
+      }
+    }
+  ],
+  "version" : 3
+}
