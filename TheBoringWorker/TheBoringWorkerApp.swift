@@ -64,6 +64,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     func applicationWillTerminate(_ notification: Notification) {
+        OSDUIManager.removeSystemEventMonitoring()
         OSDUIManager.start()
         NSLog("Target app is terminating")
         NotificationCenter.default.removeObserver(self)
@@ -80,7 +81,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         changesObserver.startObserving()
 
-         OSDUIManager.stop()
+        // Enhanced OSD management with system event monitoring
+        OSDUIManager.setupSystemEventMonitoring()
+        OSDUIManager.stop()
         
         if let containerID = ProcessInfo.processInfo.environment["APP_SANDBOX_CONTAINER_ID"] {
             print("Sandbox is enabled. Container ID: \(containerID)")
